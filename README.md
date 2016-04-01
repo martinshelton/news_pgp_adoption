@@ -26,10 +26,9 @@ Unfortunately, a good bit of the work now is manual. Parse through your data and
 
 Transforming our data
 -------------
-After spending a bit of time cleaning, you may have a nice list of keys. Count the number of appearances
-of public keys in a sheet like count_by_day.csv.
+After spending a bit of time cleaning, you may have a nice list of keys.
 
-We can do a lotof interesting things with our data, including plotting. We can plot the growth of
+We can do a lot of interesting things with our data, including plotting. We can plot the growth of
 adoption for each news organization over time. For each case, we need to use a specific format. I found it
 helpful to plot by month; you might choose to try it in a different way.
 
@@ -42,7 +41,7 @@ registrations each day from count_by_day.csv so that we can map growth for each 
 
 You can open count_by_day.csv in excel and, again, use text by columns to make it easier to work with.
 
-In our final sheet, we turn each month into a number that can be easily plotted. In this case, our first
+In our final sheet, we number each month so that it can be easily plotted. In this case, our first
 month (Dec-94) simply becomes 1. Jan-95 becomes 2, and so on. In the end, you'll have a sheet that looks
 like newsdata.csv.
 
