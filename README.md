@@ -2,7 +2,8 @@ PGP Adoption in News
 ---------
 
 Using MIT's keyserver data, we can grab, transform, and plotthe number of unique PGP keys and registration
-dates for multiple news organizations.
+dates for multiple news organizations. I wrote a blog post based on this exercise, and why you may want to
+be skeptical about the data: https://medium.com/@mshelton/how-10-news-orgs-adopted-pgp-or-not-cc278531a82b
 
 Dependencies:
 * BeautifulSoup4
