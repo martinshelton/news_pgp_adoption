@@ -10,6 +10,10 @@ Dependencies:
 * pandas
 * matplotlib
 
+BeautifulSoup can be installed with pip.
+
+      pip install beautifulsoup4
+
 The Anaconda Python distribution (https://www.continuum.io/downloads) can help install the libraries we need.
 
 Scraping PGP keyserver data
@@ -40,7 +44,7 @@ registrations each day from count_by_day.csv so that we can map growth for each 
 
       python counter.py > count_by_day.csv
 
-You can open count_by_day.csv in excel and, again, use text by columns to make it easier to work with.
+You can open count_by_day.csv in excel and, again, use text to columns to make it easier to work with.
 
 In our final sheet, we number each month so that it can be easily plotted. In this case, our first
 month (Dec-94) simply becomes 1. Jan-95 becomes 2, and so on. In the end, you'll have a sheet that looks
